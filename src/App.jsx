@@ -20,7 +20,7 @@ const Footer = lazy(() => import("./components/Footer.jsx"));
 const CaseStudyDialog = lazy(() => import("./components/CaseStudyDialog.jsx"));
 
 
-const RESUME_PATH = "/assets/jayaprakash_resume.pdf";
+const RESUME_PATH = import.meta.env.BASE_URL + "assets/jayaprakash_resume.pdf";
 const RESUME_NAME = "jayaprakash_resume.pdf";
 
 export default function App() {

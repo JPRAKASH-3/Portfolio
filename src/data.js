@@ -1,4 +1,4 @@
-export const EMAIL = "jayaprakashv2410@email.com";
+export const EMAIL = "jayaprakashv2410@gmail.com";
 export const GH = "https://github.com/JPRAKASH-3";
 export const GH1 = "https://github.com/JPRAKASH-3/Amazon-Clone"
 export const GH2 = "https://github.com/JPRAKASH-3/Project-Management-Dashboard"
