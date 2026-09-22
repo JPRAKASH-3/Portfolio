@@ -1,6 +1,8 @@
+import { useReveal } from "../hooks/useReveal.js";
 import { SKILLS } from "../data.js";
 
 export default function Skills() {
+  useReveal();
   return (
     <section className="sec alt" id="skills">
       <div className="wrap">

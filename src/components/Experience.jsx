@@ -1,3 +1,4 @@
+import { useReveal } from "../hooks/useReveal.js";
 import { Icon } from "./Icons.jsx";
 
 const RESP = [
@@ -16,6 +17,7 @@ const RESP = [
 const BADGES = ["React.js", "JavaScript", "Node.js", "Express.js", "SQL", "Git", "GitHub", "Agile/Scrum"];
 
 export default function Experience() {
+  useReveal();
   return (
     <section className="sec" id="experience">
       <div className="wrap">

@@ -1,6 +1,8 @@
+import { useReveal } from "../hooks/useReveal.js";
 import { Icon } from "./Icons.jsx";
 
 export default function Education() {
+  useReveal();
   return (
     <section className="sec" id="education">
       <div className="wrap">

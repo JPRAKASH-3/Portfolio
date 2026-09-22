@@ -1,7 +1,9 @@
+import { useReveal } from "../hooks/useReveal.js";
 import { Icon } from "./Icons.jsx";
 import { EMAIL, GH, LINKEDIN, PHONE, PHONE_HREF } from "../data.js";
 
 export default function Contact({ onResume, onSubmit }) {
+  useReveal();
   return (
     <section className="sec" id="contact">
       <div className="wrap">

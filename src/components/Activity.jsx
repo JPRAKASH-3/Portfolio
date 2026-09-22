@@ -1,7 +1,9 @@
+import { useReveal } from "../hooks/useReveal.js";
 import { Icon } from "./Icons.jsx";
 import { GH, LINKEDIN } from "../data.js";
 
 export default function Activity() {
+  useReveal();
   return (
     <section className="sec alt" id="activity">
       <div className="wrap">

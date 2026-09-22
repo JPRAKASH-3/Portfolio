@@ -1,7 +1,9 @@
+import { useReveal } from "../hooks/useReveal.js";
 import { Icon } from "./Icons.jsx";
 import { PROJECTS } from "../data.js";
 
 export default function Projects({ onOpenCase }) {
+  useReveal();
   return (
     <section className="sec alt" id="projects">
       <div className="wrap">
