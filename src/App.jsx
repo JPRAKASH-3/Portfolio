@@ -20,8 +20,8 @@ const Footer = lazy(() => import("./components/Footer.jsx"));
 const CaseStudyDialog = lazy(() => import("./components/CaseStudyDialog.jsx"));
 
 
-const RESUME_PATH = "/assets/Jayaprakash_V_Resume.pdf";
-const RESUME_NAME = "Jayaprakash_V_Resume.pdf";
+const RESUME_PATH = "/assets/jayaprakash_resume.pdf";
+const RESUME_NAME = "jayaprakash_resume.pdf";
 
 export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
